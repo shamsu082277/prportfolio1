@@ -1,0 +1,54 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+/* Universal css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 150px;
+    height: 64px;
+}
+
+
+/* Nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 0px 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+font-weight: 400;
+}
